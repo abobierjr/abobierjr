@@ -1,5 +1,5 @@
 # 💫 About Me:
-A dedicated and results-driven data analyst and developer with a strong foundation in data management, <br>analytics, and software development. With a track record in roles across the technology and <br>education sectors, I bring a blend of technical expertise and analytical skills to drive <br>data-driven decision-making and efficient systems.
+A dedicated and results-driven data analyst and developer with a strong foundation in data management, analytics, and software development. With a track record in roles across the technology and education sectors, I bring a blend of technical expertise and analytical skills to drive data-driven decision-making and efficient systems.
 
 
 # 💻 Tech Stack:
