@@ -1,14 +1,3 @@
-## 📄 Web Resume
-
-This repo also hosts a static resume site (`index.html`, `styles.css`, `script.js`) meant to be served via GitHub Pages.
-
-- **Run locally:** open `index.html` directly in a browser, or serve it with `python3 -m http.server` and visit `http://localhost:8000`.
-- **Enable GitHub Pages:** Settings → Pages → Source: Deploy from a branch → Branch: `main` (or your default branch) → Folder: `/ (root)` → Save.
-- **Update content:** edit the block between `<!-- EDITABLE CONTENT -->` and `<!-- END EDITABLE CONTENT -->` in `index.html` — that's where the name, summary, experience, skills, and contact info live. Layout and styling live in `styles.css` and don't need to change.
-- **Projects section:** intentionally left out for now — add one back into `index.html` between Skills and Certifications when ready.
-
----
-
 # 💫 About Me:
 A dedicated and results-driven data analyst and developer with a strong foundation in data management, analytics, and software development. With a track record in roles across the technology and education sectors, I bring a blend of technical expertise and analytical skills to drive data-driven decision-making and efficient systems.
 
