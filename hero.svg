@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="screenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b3f6b"/>
+      <stop offset="100%" stop-color="#1a2744"/>
+    </linearGradient>
+  </defs>
+
+  <!-- backdrop blob -->
+  <circle cx="280" cy="240" r="200" fill="#2b5fd9" opacity="0.12"/>
+  <circle cx="280" cy="240" r="140" fill="#2b5fd9" opacity="0.10"/>
+
+  <!-- floating dots -->
+  <circle cx="90" cy="120" r="6" fill="#5b8def"/>
+  <circle cx="470" cy="100" r="5" fill="#7db0ff"/>
+  <circle cx="500" cy="330" r="7" fill="#5b8def"/>
+  <circle cx="70" cy="360" r="5" fill="#7db0ff"/>
+  <path d="M440 150 l8 8 M440 158 l8 -8" stroke="#7db0ff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M110 300 l8 8 M110 308 l8 -8" stroke="#5b8def" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- monitor -->
+  <rect x="140" y="110" width="280" height="190" rx="14" fill="#101a30" stroke="#33456e" stroke-width="3"/>
+  <rect x="158" y="128" width="244" height="140" rx="6" fill="url(#screenGrad)"/>
+  <rect x="250" y="300" width="60" height="14" rx="4" fill="#33456e"/>
+  <rect x="220" y="314" width="120" height="10" rx="5" fill="#243456"/>
+
+  <!-- bar chart on screen -->
+  <rect x="180" y="220" width="20" height="34" rx="3" fill="#5b8def"/>
+  <rect x="210" y="200" width="20" height="54" rx="3" fill="#7db0ff"/>
+  <rect x="240" y="180" width="20" height="74" rx="3" fill="#5b8def"/>
+  <rect x="270" y="210" width="20" height="44" rx="3" fill="#7db0ff"/>
+
+  <!-- line chart on screen -->
+  <polyline points="180,168 210,150 240,160 270,140 300,148 330,132" fill="none" stroke="#a9c8ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="330" cy="132" r="4" fill="#a9c8ff"/>
+
+  <!-- database cylinder -->
+  <g transform="translate(370 250)">
+    <ellipse cx="0" cy="0" rx="46" ry="14" fill="#22335a" stroke="#3a4f80" stroke-width="3"/>
+    <path d="M-46 0 v40 a46 14 0 0 0 92 0 v-40" fill="#1a2744" stroke="#3a4f80" stroke-width="3"/>
+    <ellipse cx="0" cy="40" rx="46" ry="14" fill="none" stroke="#3a4f80" stroke-width="3"/>
+    <ellipse cx="0" cy="20" rx="46" ry="14" fill="none" stroke="#3a4f80" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- floating "validated" card -->
+  <g transform="translate(88 210)">
+    <rect x="0" y="0" width="118" height="72" rx="12" fill="#101a30" stroke="#33456e" stroke-width="3"/>
+    <circle cx="26" cy="26" r="13" fill="#5b8def"/>
+    <path d="M20 26 l4 5 l9 -10" fill="none" stroke="#0b1220" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="48" y="18" width="56" height="8" rx="4" fill="#33456e"/>
+    <rect x="48" y="34" width="40" height="8" rx="4" fill="#243456"/>
+  </g>
+
+  <!-- gear (automation) -->
+  <g transform="translate(430 340)" fill="#7db0ff">
+    <circle r="22" fill="none" stroke="#7db0ff" stroke-width="4"/>
+    <circle r="8" fill="#0f1729" stroke="#7db0ff" stroke-width="3"/>
+    <g stroke="#7db0ff" stroke-width="4" stroke-linecap="round">
+      <line x1="0" y1="-30" x2="0" y2="-22"/>
+      <line x1="0" y1="30" x2="0" y2="22"/>
+      <line x1="-30" y1="0" x2="-22" y2="0"/>
+      <line x1="30" y1="0" x2="22" y2="0"/>
+      <line x1="21" y1="-21" x2="16" y2="-16"/>
+      <line x1="-21" y1="21" x2="-16" y2="16"/>
+      <line x1="-21" y1="-21" x2="-16" y2="-16"/>
+      <line x1="21" y1="21" x2="16" y2="16"/>
+    </g>
+  </g>
+
+  <!-- stand -->
+  <rect x="260" y="300" width="12" height="0" fill="none"/>
+  <line x1="280" y1="330" x2="280" y2="360" stroke="#33456e" stroke-width="4"/>
+  <line x1="210" y1="360" x2="350" y2="360" stroke="#33456e" stroke-width="4" stroke-linecap="round"/>
+</svg>

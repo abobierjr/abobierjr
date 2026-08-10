@@ -3,6 +3,7 @@
 
   var root = document.documentElement;
   var toggleBtn = document.getElementById("theme-toggle");
+  var toggleKnob = toggleBtn ? toggleBtn.querySelector(".knob") : null;
   var STORAGE_KEY = "resume-theme";
 
   function applyTheme(theme) {
@@ -12,7 +13,9 @@
       root.setAttribute("data-theme", "light");
     }
     if (toggleBtn) {
-      toggleBtn.textContent = theme === "dark" ? "☀️" : "🌙";
+      if (toggleKnob) {
+        toggleKnob.textContent = theme === "dark" ? "☀️" : "🌙";
+      }
       toggleBtn.setAttribute(
         "aria-label",
         theme === "dark" ? "Switch to light mode" : "Switch to dark mode"
@@ -48,6 +51,14 @@
   var printBtn = document.getElementById("print-btn");
   if (printBtn) {
     printBtn.addEventListener("click", function () {
+      window.print();
+    });
+  }
+
+  var navResume = document.getElementById("nav-resume");
+  if (navResume) {
+    navResume.addEventListener("click", function (e) {
+      e.preventDefault();
       window.print();
     });
   }

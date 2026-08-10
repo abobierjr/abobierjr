@@ -5,24 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Adrian Percival Bobier Jr — Senior Technical Operations & Data Analyst</title>
 <meta name="description" content="Adrian Percival Bobier Jr — Senior Technical Operations and Data Analyst at Blooming Health Inc. SQL, Python automation, Twilio infrastructure, and data pipelines." />
-<meta name="theme-color" content="#14181d" />
+<meta name="theme-color" content="#0f1729" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="profile" />
 <meta property="og:title" content="Adrian Percival Bobier Jr — Senior Technical Operations & Data Analyst" />
-<meta property="og:description" content="SQL, Python automation, Twilio infrastructure, and data pipelines — resume and career highlights." />
+<meta property="og:description" content="SQL, Python automation, Twilio infrastructure, and data pipelines — portfolio and career highlights." />
 <meta property="og:site_name" content="Adrian Percival Bobier Jr" />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Adrian Percival Bobier Jr — Senior Technical Operations & Data Analyst" />
-<meta name="twitter:description" content="SQL, Python automation, Twilio infrastructure, and data pipelines — resume and career highlights." />
+<meta name="twitter:description" content="SQL, Python automation, Twilio infrastructure, and data pipelines — portfolio and career highlights." />
 
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
 
 <link rel="stylesheet" href="styles.css" />
 </head>
@@ -32,16 +32,18 @@
 
 <header class="topbar">
   <div class="topbar-inner">
-    <span class="brand">Adrian Percival Bobier Jr</span>
+    <a class="brand" href="#top" aria-label="Back to top">Adrian <span class="brand-bracket">/&gt;</span></a>
     <nav class="site-nav" aria-label="Section navigation">
-      <a href="#summary">Summary</a>
-      <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
       <a href="#certifications">Certifications</a>
+      <a href="#" id="nav-resume">Resume</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="topbar-actions">
-      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+      <button id="theme-toggle" class="theme-switch" type="button" aria-label="Toggle dark mode">
+        <span class="knob">🌙</span>
+      </button>
     </div>
   </div>
 </header>
@@ -54,39 +56,82 @@
      surrounding HTML tags (like <li> or <div class="..."> ) in place.
      ========================================================================== -->
 
-<!-- ---- Header / Hero ---- -->
-<section class="hero wrap">
-  <span class="hero-eyebrow">Open to opportunities</span>
-  <h1>Adrian Percival Bobier Jr</h1>
-  <p class="hero-title">Senior Technical Operations and Data Analyst · Blooming Health Inc.</p>
-  <p class="hero-pitch">
-    I turn messy production databases into reliable systems — tracing issues to
-    their root cause, automating the manual work away with Python and SQL, and
-    building dashboards that leadership actually trusts.
-  </p>
-  <div class="hero-meta">
-    <a class="contact-link" href="mailto:abobierjr@gmail.com" aria-label="Email Adrian">✉️ abobierjr@gmail.com</a>
-    <a class="contact-link" href="https://www.linkedin.com/in/abobierjr" target="_blank" rel="noopener noreferrer" aria-label="Adrian's LinkedIn profile">💼 LinkedIn</a>
-    <a class="contact-link" href="https://github.com/abobierjr" target="_blank" rel="noopener noreferrer" aria-label="Adrian's GitHub profile">💻 GitHub</a>
-    <span class="location-tag">📍 Philippines · Remote</span>
+<!-- ---- Hero ---- -->
+<section id="top" class="hero wrap">
+  <div class="hero-copy">
+    <span class="hero-eyebrow">Open to opportunities</span>
+    <h1>Hi, I'm Adrian 👋</h1>
+    <p class="hero-title">Senior Technical Operations and Data Analyst · Blooming Health Inc.</p>
+    <p class="hero-pitch">
+      I turn messy production databases into reliable systems — tracing issues to
+      their root cause, automating the manual work away with Python and SQL, and
+      building dashboards that leadership actually trusts.
+    </p>
+    <div class="social-row">
+      <a class="social-badge email" href="mailto:abobierjr@gmail.com" aria-label="Email Adrian">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg>
+      </a>
+      <a class="social-badge linkedin" href="https://www.linkedin.com/in/abobierjr" target="_blank" rel="noopener noreferrer" aria-label="Adrian's LinkedIn profile">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+      </a>
+      <a class="social-badge github" href="https://github.com/abobierjr" target="_blank" rel="noopener noreferrer" aria-label="Adrian's GitHub profile">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.4 9.4 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.35 4.68-4.58 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+      </a>
+      <span class="location-tag">📍 Philippines · Remote</span>
+    </div>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="#contact">Contact Me</a>
+      <button id="print-btn" class="btn btn-ghost" type="button">Download Resume</button>
+    </div>
   </div>
+  <img class="hero-art" src="hero.svg" alt="" aria-hidden="true" />
 </section>
 
-<!-- ---- Summary ---- -->
-<section id="summary" class="summary wrap" aria-labelledby="summary-heading">
-  <h2 id="summary-heading" class="section-heading"><span class="accent-dot">#</span> Summary</h2>
-  <p>
-    Technical Operations and Data Analyst with three-plus years turning production
-    databases, SQL pipelines, and Twilio communication infrastructure into systems
-    that Enterprise customers can rely on. Known for diagnosing data issues at the
-    root cause, automating manual database work out of existence with Python and
-    Apps Script, and building dashboards that leadership uses to make real decisions.
-  </p>
+<!-- ---- Skills ---- -->
+<section id="skills" class="wrap" aria-labelledby="skills-heading">
+  <h2 id="skills-heading" class="section-heading"><span class="accent-dot">#</span> Skills</h2>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <h3>Languages &amp; Tools</h3>
+      <ul class="tag-list">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>PHP</li>
+        <li>Laravel</li>
+        <li>Google Apps Script</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Data &amp; Analytics</h3>
+      <ul class="tag-list">
+        <li>BigQuery</li>
+        <li>Snowflake</li>
+        <li>PostgreSQL</li>
+        <li>MySQL</li>
+        <li>Tableau</li>
+        <li>Google Data Studio</li>
+        <li>Data Modeling</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Infrastructure &amp; Automation</h3>
+      <ul class="tag-list">
+        <li>Twilio &amp; A2P 10DLC Compliance</li>
+        <li>Google Cloud Platform</li>
+        <li>Google Colab Automation</li>
+        <li>Sheets Automation (Apps Script)</li>
+      </ul>
+    </div>
+
+  </div>
 </section>
 
 <!-- ---- Experience ---- -->
 <section id="experience" class="wrap" aria-labelledby="experience-heading">
-  <h2 id="experience-heading" class="section-heading"><span class="accent-dot">#</span> Experience</h2>
+  <h2 id="experience-heading" class="section-heading"><span class="accent-dot">#</span> Work Experience</h2>
 
   <article class="job">
     <div class="job-head">
@@ -181,48 +226,6 @@
   </div>
 </section>
 
-<!-- ---- Skills ---- -->
-<section id="skills" class="wrap" aria-labelledby="skills-heading">
-  <h2 id="skills-heading" class="section-heading"><span class="accent-dot">#</span> Skills</h2>
-  <div class="skills-grid">
-
-    <div class="skill-card">
-      <h3>Languages &amp; Tools</h3>
-      <ul class="tag-list">
-        <li>Python</li>
-        <li>SQL</li>
-        <li>PHP</li>
-        <li>Laravel</li>
-        <li>Google Apps Script</li>
-      </ul>
-    </div>
-
-    <div class="skill-card">
-      <h3>Data &amp; Analytics</h3>
-      <ul class="tag-list">
-        <li>BigQuery</li>
-        <li>Snowflake</li>
-        <li>PostgreSQL</li>
-        <li>MySQL</li>
-        <li>Tableau</li>
-        <li>Google Data Studio</li>
-        <li>Data Modeling</li>
-      </ul>
-    </div>
-
-    <div class="skill-card">
-      <h3>Infrastructure &amp; Automation</h3>
-      <ul class="tag-list">
-        <li>Twilio &amp; A2P 10DLC Compliance</li>
-        <li>Google Cloud Platform</li>
-        <li>Google Colab Automation</li>
-        <li>Sheets Automation (Apps Script)</li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
 <!-- ---- Certifications ---- -->
 <section id="certifications" class="wrap" aria-labelledby="certifications-heading">
   <h2 id="certifications-heading" class="section-heading"><span class="accent-dot">#</span> Certifications</h2>
@@ -234,22 +237,34 @@
   </div>
 </section>
 
-<!-- ---- Footer / Contact CTA ---- -->
-<footer id="contact" class="site-footer wrap">
-  <h2>Let's talk</h2>
-  <p>Open to Senior Technical Operations, Data Analyst, and Data Engineering roles.</p>
-  <div class="footer-actions">
-    <a class="btn btn-primary" href="mailto:abobierjr@gmail.com">✉️ Email Me</a>
-    <a class="btn btn-ghost" href="https://www.linkedin.com/in/abobierjr" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a class="btn btn-ghost" href="https://github.com/abobierjr" target="_blank" rel="noopener noreferrer">GitHub</a>
-    <button id="print-btn" class="btn btn-ghost" type="button">🖨️ Print / Save as PDF</button>
+<!-- ---- Contact ---- -->
+<section id="contact" class="wrap contact-section" aria-labelledby="contact-heading">
+  <h2 id="contact-heading" class="section-heading"><span class="accent-dot">#</span> Get In Touch</h2>
+  <p>Open to Senior Technical Operations, Data Analyst, and Data Engineering roles. Reach out any time.</p>
+  <div class="social-row">
+    <a class="social-badge email" href="mailto:abobierjr@gmail.com" aria-label="Email Adrian">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg>
+    </a>
+    <a class="social-badge linkedin" href="https://www.linkedin.com/in/abobierjr" target="_blank" rel="noopener noreferrer" aria-label="Adrian's LinkedIn profile">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+    </a>
+    <a class="social-badge github" href="https://github.com/abobierjr" target="_blank" rel="noopener noreferrer" aria-label="Adrian's GitHub profile">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.4 9.4 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.35 4.68-4.58 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+    </a>
   </div>
-  <p class="updated">Last updated: August 10, 2026</p>
-</footer>
+  <div class="hero-ctas">
+    <a class="btn btn-primary" href="mailto:abobierjr@gmail.com">Email Me</a>
+    <button class="btn btn-ghost" type="button" onclick="window.print()">Download Resume</button>
+  </div>
+</section>
 
 <!-- ==========================================================================
      END EDITABLE CONTENT
      ========================================================================== -->
+
+<footer class="site-footer wrap">
+  <p class="updated">Last updated: August 10, 2026</p>
+</footer>
 
 </main>
 
