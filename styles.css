@@ -291,12 +291,13 @@ a:focus-visible {
 
 /* ---- Sections ---- */
 
-section {
-  padding: 2.6rem 0;
+section.wrap {
+  padding-top: 2.6rem;
+  padding-bottom: 2.6rem;
   border-top: 1px solid var(--border);
 }
 
-.hero + section {
+.hero + section.wrap {
   border-top: none;
 }
 
