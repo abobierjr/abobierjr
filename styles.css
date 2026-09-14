@@ -912,6 +912,16 @@ a.bento-card:focus-visible {
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+  color: inherit;
+}
+
+.cert-row + .cert-row {
+  margin-top: 1rem;
+}
+
+.cert-row:hover,
+.cert-row:focus-visible {
+  text-decoration: none;
 }
 
 .cert-row .cert-name {
@@ -921,6 +931,25 @@ a.bento-card:focus-visible {
 .cert-row .cert-issuer {
   font-size: 0.85rem;
   color: var(--text-muted);
+}
+
+.verify-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent-strong);
+  white-space: nowrap;
+}
+
+.verify-link svg {
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.cert-row:hover .verify-link {
+  text-decoration: underline;
 }
 
 /* Contact section */
